@@ -40,5 +40,3 @@ public class RegularPentagon {
         double sideLength = A.distance(B);
         return (1.0 / 4.0) * Math.sqrt(5 * (5 + 2 * Math.sqrt(5))) * Math.pow(sideLength, 2);
     }
-
-}
