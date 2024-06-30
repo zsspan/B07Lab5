@@ -25,7 +25,7 @@ public class RegularPentagon {
         double CD = C.distance(D);
         double DE = D.distance(E);
         double EA = E.distance(A);
-        
+
         return Math.abs(AB - BC) < accuracy &&
                Math.abs(BC - CD) < accuracy &&
                Math.abs(CD - DE) < accuracy &&
@@ -40,5 +40,3 @@ public class RegularPentagon {
         double sideLength = A.distance(B);
         return (1.0 / 4.0) * Math.sqrt(5 * (5 + 2 * Math.sqrt(5))) * Math.pow(sideLength, 2);
     }
-
-}
