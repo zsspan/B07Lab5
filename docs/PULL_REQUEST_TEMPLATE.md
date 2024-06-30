@@ -19,7 +19,7 @@ a) BREAKING CHANGE
 b) Reviewed by
 c) Refs (Issue Reference ID)
 
-# Full example:
+# Full example
 
 > fix: prevent racing of requests  
 Introduce a request id and a reference to latest request. Dismiss  
